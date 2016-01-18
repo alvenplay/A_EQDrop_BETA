@@ -1,0 +1,17 @@
+name: A_Drop
+version: 1.0-pre_A
+author: AlvenxPlay
+main: me.AlvenxPlay.EQDrop.Main
+
+commands:
+  setdrop:
+    description: Ustaw dropienie przedmiotu.
+    aliases: [ustawdrop, asetdrop, austawdrop]
+
+permissions:
+  EQDrop.*:
+    default: op
+    children:
+      EQDrop.admin: true
+  EQDrop.admin:
+    default: op
